@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #525252;
     display: flex;
     justify-content: center;
 }
@@ -22,12 +22,12 @@
 }
 
 .nav-bar ul li a:hover {
-    background-color: #111111;
+    background-color: #000000;
 }
 
 /* Contacts.html */
 .contacts-container {
-    border: 2px solid #333333;
+    border: 2px solid #000000;
     border-radius: 8px;
     padding: 20px;
     margin: 20px auto;
@@ -47,14 +47,14 @@
 
 .contacts-container textarea {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #707070;
     border-radius: 4px;
     font-size: 14px;
 }
 
 .contacts-container input {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #6e6e6e;
     border-radius: 4px;
     font-size: 14px; 
 }
@@ -62,7 +62,7 @@
 .contacts-container button {
     margin-top: 20px;
     padding: 12px;
-    background-color: #333333;
+    background-color: #353535;
     color: white;
     border: none;
     border-radius: 4px;
@@ -71,7 +71,7 @@
 }
 
 .contacts-container button:hover {
-    background-color: #111111;
+    background-color: #000000;
 }
 
 .contact-us {
@@ -79,5 +79,29 @@
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #333333;
+    color: #2c2c2c;
+}
+
+/* About.html */
+.about-staffTeam {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile {
+    border: 2px solid #2e2e2e;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 50px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-header h2, .about-header h1 {
+    text-align: center;
+}
+
+.about-us {
+    margin: 20px;
 }
